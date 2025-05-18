@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-project",
+  "version": "1.0.0",
+  "description": "Responsive portfolio project using SCSS and BEM",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/scss/main.scss dist/main.css",
+    "watch": "sass --watch src/scss/main.scss dist/main.css"
+  },
+  "author": "Lama",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.69.0"
+  }
+}
