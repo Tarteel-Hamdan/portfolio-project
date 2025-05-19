@@ -1,0 +1,7 @@
+@forward 'about';
+@forward 'contact';
+@use './header' as *;
+@use './banner' as *;
+@use './projects' as *;
+@use './footer' as *;
+@use './button' as *;
